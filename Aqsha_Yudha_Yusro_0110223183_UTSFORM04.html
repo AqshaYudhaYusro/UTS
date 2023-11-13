@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+    <style>
+        .nav {
+            margin: 0 20rem 0 0
+        }
+
+        .judul {
+            text-align: center;
+        }
+
+        ol {
+            display: flex;
+            list-style: none;
+            justify-content: right;
+        }
+
+        li {
+            margin: 0 3px 0 0
+        }
+
+        .identitas {
+            margin: 0 0 0 21rem;
+        }
+
+        .persegi {
+            margin: 0 20rem 0 20rem;
+            display: block;
+        }
+
+        th {
+            padding: 10px;
+        }
+
+        .left {
+            text-align: right;
+        }
+
+        .right {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="judul">Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+    <div class="nav">
+        <ol>
+            <li><a href="#">Home</a></li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+            </svg>
+            <li><a href="#">Jadwal</a></li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+            </svg>
+            <li><a href="#">Detail Jadwal</li></a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path
+                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+            </svg>
+            <li>Daftar Peserta</li>
+        </ol>
+    </div>
+    <div class="identitas">
+        <p>Mahasiswa Seminar : Diego Armando (0102002)<br>Judul : Rancangan Bangun Aplikasi seminar Tugas Akhir Berbasis
+            web Menggunakan MVC Framework<br>Waktu :Senin, 4 Januari 2021, 10:00</p>
+    </div>
+    <fieldset class="persegi">
+        <legend>Form Peserta Seminar</legend>
+        <table>
+            <form>
+                <tr>
+                    <th class="left">
+                        <label id="nim">NIM :</label>
+                    </th>
+                    <th class="right">
+                        <input type="text" id="nim" name="nim">
+                    </th>
+                </tr>
+                <tr>
+                    <th class="left">
+                        <label id="nama">Nama :</label>
+                    </th>
+                    <th class="right">
+                        <input type="text" id="nama" name="nama">
+                    </th>
+                </tr>
+                <tr>
+                    <th class="left">
+                        <label id="prodi">Prodi :</label>
+                    </th>
+                    <th class="right">
+                        <select>
+                            <option>Sistem Informasi</option>
+                            <option>teknik Informasi</option>
+                            <option>Bisnis Digital</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="left">
+                        <label id="program">Program :</label>
+                    </th>
+                    <th class="right">
+                        <input type="radio" id="D3">
+                        <label id="program">D3</label>
+                        <input type="radio" id="s1 regular">
+                        <label id="program">S1 Regular</label>
+                        <input type="radio" id="s1 fast trackt">
+                        <label id="program">S1 Fast Trackt</label>
+                        <input type="radio" id="S2">
+                        <label id="program">S2</label>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <input type="submit" Value="Daftar">
+                    </th>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+</body>
+
+</html>
